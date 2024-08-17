@@ -1,0 +1,26 @@
+/* Write your code here. */
+.appContainer {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  color: #cb8805;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+.unorderlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  gap: 10px;
+}
